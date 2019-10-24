@@ -95,10 +95,16 @@ public class AppTest
         );
         // getSalary -> Integer implements Comparable
         // getName -> String implements Comparable
-        
+
         assertThat(people.get(0)).isEqualTo(amanda);
         assertThat(people.get(2)).isEqualTo(abraham);
         assertThat(people.get(4)).isEqualTo(sebastian);
         assertThat(people.get(people.size() - 1)).isEqualTo(jackie);
+    }
+
+    @Test
+    public void collectors(){
+        people.stream().collect(Collectors.summarizingInt(Person::getSalary)).get
+
     }
 }

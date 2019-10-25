@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class AppTest
+public class CollectionsTest
 {
     private List<String> names = Arrays.asList("Peter Pan", "Noah", "Adam", "Johny English", "Pi", "Zoltan Zoran", "Noa", "Anna", "Zoltan Zubr");
 

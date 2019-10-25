@@ -5,6 +5,17 @@ Using Java 8, 9, and 11
 
 Please checkout the following branches:
 - collections/list
+
+```java
+stream()
+  .filter()
+
+stream()
+  .sort(Comparator.comparingInt())
+  .sort(Comparator.comparing())
+  .sort(Comparator.reverseOrder())
+```
+
 - collections/map
 - collections/set
 
